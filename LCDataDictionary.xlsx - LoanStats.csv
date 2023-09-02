@@ -1,0 +1,101 @@
+,Description,
+_rec,The total amount committed by investors for that loan at that point in time.,Jumlah total yang dilakukan oleh investor untuk pinjaman itu pada saat itu.
+acc_now_delinq,The number of accounts on which the borrower is now delinquent.,Jumlah akun di mana peminjam sekarang nakal.
+addr_state,The state provided by the borrower in the loan application,Negara yang disediakan oleh peminjam dalam aplikasi pinjaman
+all_util,Balance to credit limit on all trades,Saldo ke batas kredit untuk semua perdagangan
+annual_inc,The self-reported annual income provided by the borrower during registration.,v
+annual_inc_joint,The combined self-reported annual income provided by the co-borrowers during registration,Penghasilan tahunan yang dilaporkan sendiri gabungan yang disediakan oleh co-peminjam selama pendaftaran
+application_type,Indicates whether the loan is an individual application or a joint application with two co-borrowers,
+collection_recovery_fee,post charge off collection fee,Biaya pengumpulan biaya pengumpulan pos
+collections_12_mths_ex_med,Number of collections in 12 months excluding medical collections,Jumlah koleksi dalam 12 bulan tidak termasuk koleksi medis
+delinq_2yrs,The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years,Jumlah 30+ hari insiden kenakalan yang lewat dalam file kredit peminjam selama 2 tahun terakhir
+desc,Loan description provided by the borrower,Deskripsi pinjaman yang disediakan oleh peminjam
+dti_joint,"A ratio calculated using the co-borrowers' total monthly payments on the total debt obligations, excluding mortgages and the requested LC loan, divided by the co-borrowers' combined self-reported monthly income","Rasio yang dihitung menggunakan total pembayaran bulanan peminjam bersama atas total kewajiban utang, tidak termasuk hipotek dan pinjaman LC yang diminta, dibagi oleh pendapatan bulanan yang dilaporkan sendiri oleh co-peminjam yang dilaporkan sendiri"
+earliest_cr_line,The month the borrower's earliest reported credit line was opened,Bulan jalur kredit yang paling awal yang dilaporkan peminjam dibuka
+emp_length,Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years. ,Panjang pekerjaan dalam beberapa tahun. Nilai yang mungkin adalah antara 0 dan 10 di mana 0 berarti kurang dari satu tahun dan 10 berarti sepuluh tahun atau lebih.
+emp_title,The job title supplied by the Borrower when applying for the loan.*,Judul pekerjaan yang disediakan oleh peminjam saat mengajukan pinjaman.*
+Femp,"A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income.","Rasio yang dihitung menggunakan total pembayaran utang bulanan peminjam atas total kewajiban utang, tidak termasuk hipotek dan pinjaman LC yang diminta, dibagi dengan pendapatan bulanan peminjam yang dilaporkan sendiri."
+fico_range_high,The upper boundary range the borrower’s FICO at loan origination belongs to.,Kisaran batas atas fico peminjam pada awal pinjaman.
+fico_range_low,The lower boundary range the borrower’s FICO at loan origination belongs to.,Rentang batas bawah fico peminjam dengan pinjaman originasi milik.
+funded_amnt,The total amount committed to that loan at that point in time.,Jumlah total yang berkomitmen untuk pinjaman itu pada saat itu.
+grade,LC assigned loan grade,LC menugaskan nilai pinjaman
+home_ownership,"The home ownership status provided by the borrower during registration. Our values are: RENT, OWN, MORTGAGE, OTHER.","Status kepemilikan rumah yang disediakan oleh peminjam selama pendaftaran. Nilai -nilai kami adalah: sewa, sendiri, hipotek, lainnya."
+id,A unique LC assigned ID for the loan listing.,ID yang ditugaskan LC yang unik untuk daftar pinjaman.
+il_util,Ratio of total current balance to high credit/credit limit on all install acct,Rasio total saldo saat ini dengan batas kredit/kredit tinggi pada semua instal acct
+initial_list_status,"The initial listing status of the loan. Possible values are – Whole, Fractional","Status daftar awal pinjaman. Nilai yang mungkin adalah - utuh, fraksional"
+inq_fi,Number of personal finance inquiries,Jumlah pertanyaan keuangan pribadi
+inq_last_12m,Number of credit inquiries in past 12 months,Jumlah pertanyaan kredit dalam 12 bulan terakhir
+inq_last_6mths,The number of inquiries in past 6 months (excluding auto and mortgage inquiries),Jumlah pertanyaan dalam 6 bulan terakhir (tidak termasuk penyelidikan mobil dan hipotek)
+installment,The monthly payment owed by the borrower if the loan originates.,Pembayaran bulanan yang terutang oleh peminjam jika pinjaman berasal.
+int_rate,"Indicates if income was verified by LC, not verified, or if the income source was verified","Menunjukkan jika pendapatan diverifikasi oleh LC, tidak diverifikasi, atau jika sumber pendapatan diverifikasi"
+is_inc_v,,"Menunjukkan jika pendapatan diverifikasi oleh LC, tidak diverifikasi, atau jika sumber pendapatan diverifikasi"
+issue_d,The month which the loan was funded,Bulan yang didanai pinjaman
+id,The most recent month LC pulled credit for this loan,Bulan terbaru LC menarik kredit untuk pinjaman ini
+last_fico_range_high,The upper boundary range the borrower’s last FICO pulled belongs to.,Rentang batas atas yang ditarik oleh fico terakhir peminjam.
+last_fico_range_low,The lower boundary range the borrower’s last FICO pulled belongs to.,Rentang batas bawah yang dimiliki oleh fico terakhir peminjam.
+last_pymnt_amnt,Last total payment amount received,Jumlah total pembayaran terakhir yang diterima
+last_pymnt_d,Last month payment was received,Bulan lalu pembayaran diterima
+loan_amnt,Last month payment was received,Bulan lalu pembayaran diterima
+loan_status,Current status of the loan,Status pinjaman saat ini
+max_bal_bc,Maximum current balance owed on all revolving accounts,Saldo arus maksimum terutang pada semua akun bergulir
+member_id,A unique LC assigned Id for the borrower member.,ID yang ditugaskan LC yang unik untuk anggota peminjam.
+mths_since_last_delinq,The number of months since the borrower's last delinquency.,Jumlah bulan sejak kenakalan terakhir peminjam.
+mths_since_last_major_derog,Months since most recent 90-day or worse rating,Bulan sejak peringkat 90 hari atau lebih buruk terakhir
+mths_since_last_record,The number of months since the last public record.,Jumlah bulan sejak catatan publik terakhir.
+mths_since_rcnt_il,Months since most recent installment accounts opened,Bulan sejak akun angsuran terbaru dibuka
+next_pymnt_d,Next scheduled payment date,Tanggal Pembayaran Terjadwal Berikutnya
+open_acc,The number of open credit lines in the borrower's credit file.,Jumlah jalur kredit terbuka dalam file kredit peminjam.
+open_acc_6m,Number of open trades in last 6 months,Jumlah perdagangan terbuka dalam 6 bulan terakhir
+open_il_12m,,Jumlah perdagangan terbuka dalam 6 bulan terakhir
+open_il_24m,Number of installment accounts opened in past 24 months,Jumlah akun angsuran yang dibuka dalam 24 bulan terakhir
+open_il_6m,Number of installment accounts opened in past 12 months,Jumlah akun angsuran yang dibuka dalam 12 bulan terakhir
+open_rv_12m,Number of revolving trades opened in past 12 months,Jumlah Perdagangan Revolving Dibuka dalam 12 Bulan Terakhir
+open_rv_24m,Number of revolving trades opened in past 24 months,Jumlah perdagangan revolving dibuka dalam 24 bulan terakhir
+out_prncp,Remaining outstanding principal for total amount funded,Kepala sekolah yang tersisa untuk jumlah total yang didanai
+out_prncp_inv,Remaining outstanding principal for portion of total amount funded by investors,Kepala sekolah yang tersisa untuk sebagian dari jumlah total yang didanai oleh investor
+policy_code,"publicly available policy_code=1
+new products not publicly available policy_code=2","Policy_code yang tersedia untuk umum = 1
+Produk Baru Tidak Tersedia Umum Kebijakan_Code = 2"
+pub_rec,Number of derogatory public records,Jumlah catatan publik yang menghina
+purpose,A category provided by the borrower for the loan request. ,Kategori yang disediakan oleh peminjam untuk permintaan pinjaman.
+,Indicates if a payment plan has been put in place for the loan,Menunjukkan jika rencana pembayaran telah diberlakukan untuk pinjaman
+recoveries,Indicates if a payment plan has been put in place for the loan,Menunjukkan jika rencana pembayaran telah diberlakukan untuk pinjaman
+revol_bal,Total credit revolving balance,Total Saldo Revolving Credit
+revol_util,"Revolving line utilization rate, or the amount of credit the borrower is using relative to all available revolving credit.        ","Tingkat pemanfaatan jalur revolving, atau jumlah kredit peminjam menggunakan relatif terhadap semua kredit revolving yang tersedia."
+sub_grade,LC assigned loan subgrade,LC Ditugaskan Subgrade Pinjaman
+term,The number of payments on the loan. Values are in months and can be either 36 or 60.,Jumlah pembayaran atas pinjaman. Nilai dalam beberapa bulan dan dapat berupa 36 atau 60.
+title,The loan title provided by the borrower,Judul pinjaman yang disediakan oleh peminjam
+tot_coll_amt,Total collection amounts ever owed,Total jumlah pengumpulan yang pernah ada
+tot_cur_bal,Total current balance of all accounts,Total Saldo Saat Ini dari Semua Akun
+total_acc,The total number of credit lines currently in the borrower's credit file,Jumlah total jalur kredit saat ini dalam file kredit peminjam
+total_bal_il,Total current balance of all installment accounts,Total saldo saat ini dari semua akun angsuran
+total_cu_tl,Number of finance trades,Jumlah Perdagangan Keuangan
+total_pymnt,Payments received to date for total amount funded,Pembayaran diterima hingga saat ini untuk jumlah total yang didanai
+total_pymnt_inv,Payments received to date for portion of total amount funded by investors,Pembayaran diterima hingga saat ini untuk sebagian dari jumlah total yang didanai oleh investor
+total_rec_int,Interest received to date,Bunga diterima hingga saat ini
+total_rec_late_fee,Late fees received to date,Biaya keterlambatan yang diterima hingga saat ini
+total_rec_prncp,Principal received to date,Kepala sekolah diterima hingga saat ini
+total_rev_hi_lim  ,Total revolving high credit/credit limit,Total Batas Kredit/Kredit Tinggi Revolving
+url,URL for the LC page with listing data.,URL untuk halaman LC dengan data daftar.
+verified_status_joint,"Indicates if the co-borrowers' joint income was verified by LC, not verified, or if the income source was verified","Menunjukkan jika pendapatan bersama co-peminjam diverifikasi oleh LC, tidak diverifikasi, atau jika sumber pendapatan diverifikasi"
+zip_code,The first 3 numbers of the zip code provided by the borrower in the loan application.,3 nomor pertama dari kode pos yang disediakan oleh peminjam dalam aplikasi pinjaman.
+,,
+,* Employer Title replaces Employer Name for all loans listed after 9/23/2013,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+IDE701782189883,,
